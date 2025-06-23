@@ -19,17 +19,29 @@ This project analyzes the relationship between Bitcoin market sentiment (Fear & 
 ## 📁 Project Structure
 
 project/
+
 ├── trader_sentiment_analysis.py # 🔧 Main script for data processing, scoring, visualization
+
 ├── final_insights.txt # 📄 Strategy insights and statistical summary
+
 ├── profitability_by_sentiment.png # 📊 Avg. profitability score by sentiment
+
 ├── pnl_distribution.png # 📊 PnL distribution by sentiment
+
 ├── README.md # 📘 This documentation
+
 ├── requirements.txt # ⚙️ Required Python libraries
+
 │
+
 ├── enhanced_analysis/ # 🧪advanced visualizations
+
 │ ├── rolling_trends.png
+
 │ ├── scatter_profitability_sentiment.png
+
 │ ├── win_rate_by_sentiment.png
+
 │ └── heatmap_sentiment_cluster.png
 
 
