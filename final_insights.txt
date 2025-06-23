@@ -1,0 +1,10 @@
+=== Trading Strategy Insights ===
+Correlation between Sentiment & Profitability: nan (p-value: nan)
+Most Profitable Sentiment:     Extreme Greed
+Name: 1, dtype: object
+Common Sentiment for High Volume: Fear
+Suggested Strategy:
+- Buy during 'Fear' or 'Extreme Fear' if Profitability Score > 0.5
+- Sell during 'Greed' if Profitability Score < 0.3
+- Use Sentiment Score to scale trade size
+Pro Tip: Backtest using rolling average of sentiment for smoother signals.
